@@ -1,6 +1,6 @@
 ### A Python application for NY Bravest FCU Database Management
 
-NY Bravest provides firefighters with loans and benefits and data must be relayed between other financial companies. This app simplifies the communications between several financial institutions, saving time while increasing accuracy. It was designed as an executable for Windows. Its size is 44 MB. The application must be stored in the same directory as the associated database file, NYBravestDB.xlsx, under the current configuration.
+NY Bravest provides firefighters with loans and benefits and data must be relayed between other financial companies. This app simplifies the communications between several financial institutions, saving time while increasing accuracy. It was designed as an executable for Windows. Its size is 44 MB. The application must be stored in the same directory as the associated database file, NYBravestDB.xlsx.
 
 ### How to use it
 
@@ -30,6 +30,6 @@ The console window that opens with the main GUI may point you in the right direc
 ### Changelog
 
 **1.2.0** adds the *Generate new Winston sheet* button and *Winston total this week* to the main interface. The *Amount to FedComp* total is deleted on account of redundancy. The *winston-all* sheet is now included in the database file, which is now an Excel workbook and not a csv file. This version adds a *note* column to the *EmployeeElection* sheet. A console window now opens with the application for help with debugging. It also fixes a bug when naming the "PNET...txt" file and another when making newline characters in the FC.txt file.
-
 **1.2.1** Fixed value error raised for mixed integers and datetimes. Now it just skips invalid dates.
-**1.2.2** Fixed bug merging object and datetime when adding new records.
+**1.2.2** Fixed date column merge error (object and datetime) when adding new records.
+**1.2.3** Fixed note column merge error that happened when Employee Election sheet had no notes.
