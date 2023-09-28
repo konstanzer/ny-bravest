@@ -1,6 +1,6 @@
 ### A Python application for NY Bravest FCU Database Management
 
-NY Bravest provides firefighters with loans and benefits and data must be relayed between other financial companies. This app simplifies the communications between several financial institutions, saving time while increasing accuracy. It was designed as an executable for Windows. Its size is 44 MB. The application must be stored in the same directory as the associated database file, NYBravestDB.xlsx.
+NY Bravest provides firefighters with loans and benefits and data must be relayed between other financial companies. This app simplifies the communications between several financial institutions, saving time while increasing accuracy. It was designed as an executable for Windows. The application must be stored in the same directory as the associated database file, NYBravestDB.xlsx.
 cycle.
 
 #### Week One
@@ -34,4 +34,6 @@ The console window that opens with the main GUI may point you in the right direc
 
 **1.2.3** Fixed note column merge error that happened when Employee Election sheet had no notes.
 
-**1.3.0** Visual improvements including an icon. Analysis button now shows totals and discrepant records in Excel rather than the in the GUI and pop-out window. Fixed error that happened when database had stray cells filled.
+**1.3.0** Small isual improvements. Analysis button now shows totals and discrepant records in Excel rather than the in the GUI and pop-out window. Fixed error that happened when database had stray cells filled.
+
+**1.4.0** Winston_all sheet now sorts by first, last, and MI. EE sheet added "W" option for withhold from OPA but add to Winston sheet.
