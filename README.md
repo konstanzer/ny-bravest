@@ -1,7 +1,6 @@
 ### A Python application for NY Bravest FCU Database Management
 
 NY Bravest provides firefighters with loans and benefits and data must be relayed between other financial companies. This app simplifies the communications between several financial institutions, saving time while increasing accuracy. It was designed as an executable for Windows. The application must be stored in the same directory as the associated database file, NYBravestDB.xlsx.
-cycle.
 
 #### Week One
 
@@ -14,15 +13,6 @@ The second button down on the left makes a new text file from these records. It'
 At this point, OPA has recieved a file and replied with the file named "PEDT...txt" indicating the amount of payroll they'll be sending. The bottom-left button does a few things. First, it updates the database file with last week's records. Second, it adds a column to store this week's OPA amounts and compares these amounts to the records in the database. Does a member have a different payroll deduction amount in the database? Does the new file include unrecognized members? Were accounts rejected? Payroll totals and discrepancies are listed in a new Excel file with the format "yyyymmdd_analysis.xls," which opens automatically when the process completes.
 
 If no further changes are necessary, create the FC.txt file to forward on to FedComp with the top-right button. If changes are made and a new *winston-all* sheet is needed, use the middle button on the right. The NYBravestDB.xlsx file can be viewed and edited directly using the bottom-right button.
-
-### Troubleshooting
-
-The console window that opens with the main GUI may point you in the right direction. Here are some possible mistakes.
-
-* editing a filename
-* editing a column name
-* double entries
-* leaving the database open while trying to update it
 
 ### Changelog
 
