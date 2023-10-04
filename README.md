@@ -37,3 +37,5 @@ The console window that opens with the main GUI may point you in the right direc
 **1.3.0** Small isual improvements. Analysis button now shows totals and discrepant records in Excel rather than the in the GUI and pop-out window. Fixed error that happened when database had stray cells filled.
 
 **1.4.0** Winston_all sheet now sorts by first, last, and MI. EE sheet added "W" option for withhold from OPA but add to Winston sheet.
+
+**1.4.1** Getting 'No engine found for xls' in a new environment. Added the parameter to df.to_excel.
